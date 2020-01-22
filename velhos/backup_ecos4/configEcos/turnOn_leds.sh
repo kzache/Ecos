@@ -1,0 +1,5 @@
+echo 'Turning on PWR Led (red)'
+sudo sh -c 'echo 1 > /sys/class/leds/led1/brightness'
+echo 'Turning on activity led (green)'
+echo '(this is not the right way. Look for a better command in internet)'
+sudo sh -c 'echo 0 > /sys/class/leds/led0/brightness'
