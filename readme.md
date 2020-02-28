@@ -12,7 +12,7 @@ scp -r pi@ip.do.raspberry:/home/pi/Documents/Grabacoes/ECOS_202002*.wav $HOME
 Para verificar processos que incluem o "arecord":  
 ps aux | grep arecord  
   
-Para matar um processo com id XXXXX  
+Para matar um processo com id XXXXX:  
 sudo kill XXXXX
 
 Referências:  
